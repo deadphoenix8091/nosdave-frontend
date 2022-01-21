@@ -14,7 +14,7 @@
       </div><!-- /.col -->
     </div>
     <div class="row">
-      <div class="col-xl-3 col-md-4 mb-1">
+      <div class="col-xl-3 col-md-4">
         <div class="card shadow">
             <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                 <h6 class="card-title">Item Details</h6>
@@ -34,7 +34,7 @@
             </div>
         </div>
       </div>
-      <div class="col-auto">
+      <div class="col-xl-9 col-md-8">
         <h2>Description</h2>
         <template v-if="!item.raw_description">
           <div class="card bg-info text-white shadow">
