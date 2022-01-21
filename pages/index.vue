@@ -1,7 +1,8 @@
 <template>
   <div class="pt-3">
-    <h2>flyffdb.info</h2>
-    <p>Free online database for the soon to be released game Flyff - Project M.</p>
+    <h2>Dave Database presents nosdave.de</h2>
+    <p>Free unofficial online database for the game "NosTale" © 2007 Entwell Co., Ltd. Published by Gameforge 4D GmbH.</p>
+    <p>All data is taken from the official steam client of the game and automatically processed. Images and text are property of Gameforge 4D GmbH and are only to be used for informational purposes while playing the game.</p>
 
     <div class="row">
       <nuxt-link to="/items" class="col-xl-3 col-md-6">
