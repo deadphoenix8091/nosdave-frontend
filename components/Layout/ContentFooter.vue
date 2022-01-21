@@ -4,32 +4,12 @@
       <ul class="nav">
         <li class="nav-item">
           <a
-            href="http://creative-tim.com"
+            href="https://github.com/deadphoenix8091/nosdave-frontend"
             target="_blank"
             rel="noopener"
             class="nav-link"
           >
-            Creative Tim
-          </a>
-        </li>
-        <li class="nav-item">
-          <a
-            href="https://www.creative-tim.com/presentation"
-            target="_blank"
-            rel="noopener"
-            class="nav-link"
-          >
-            About Us
-          </a>
-        </li>
-        <li class="nav-item">
-          <a
-            href="http://blog.creative-tim.com"
-            target="_blank"
-            rel="noopener"
-            class="nav-link"
-          >
-            Blog
+            Github
           </a>
         </li>
       </ul>
@@ -37,12 +17,11 @@
         &copy; {{ year }}, made with <i class="tim-icons icon-heart-2"></i> by
         
         <a
-          href="https://www.creative-tim.com/?ref=pdf-vuejs"
+          href="https://github.com/deadphoenix8091"
           target="_blank"
           rel="noopener"
-          >Creative Tim</a
-        >
-        for a better web.
+          >deadphoenix8091</a
+        >.
       </div>
     </div>
   </footer>
