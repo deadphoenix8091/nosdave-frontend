@@ -33,9 +33,9 @@
         </div>
       </div>
       <div class="col-xl-9 col-md-8">
-        <h2 v-if="quest.subquests.length">
+        <!--<h2 v-if="quest.subquests.length">
           Quest part {{ quest.questChainRootDistance + 1 }} of {{ quest.subquests.length }} quests in this chain.
-        </h2>
+        </h2>-->
         <template v-if="quest.prevQuest || quest.nextQuest">
           <div class="row">
             <div class="col-6">

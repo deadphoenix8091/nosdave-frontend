@@ -35,6 +35,21 @@
         </div>
       </div>
       <div class="col-auto">
+        <h2>Description</h2>
+        <template v-if="!item.raw_description">
+          <div class="card bg-info text-white shadow">
+            <div class="card-body">
+              This quest has no description!
+            </div>
+          </div>
+        </template>
+        <template v-if="item.raw_description">
+          <div class="card bg-info text-white shadow">
+            <div class="card-body">
+              {{ item.raw_description }}
+            </div>
+          </div>
+        </template>
         <pre><code>{{rawData}}</code></pre>
       </div>
     </div>

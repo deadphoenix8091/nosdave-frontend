@@ -19,8 +19,12 @@ export default {
     let query = $content('quest', { deep: true });
     let quests = await query.fetch();
 
+    quests = quests.filter(function (x) {
+      return x.questChainPrev < 0;
+    });
+
     quests.sort(function(a, b) {
-        return a.level[0] - b.level[0];
+      return a.level[0] - b.level[0];
     });
     
     return {
