@@ -14,4 +14,4 @@ At the moment it is mostly a collection of proof of concepts that test the conte
 - [x] Generic quest listing
 - [x] Generic "monster" listing
 - [ ] split monsters into npcs and monsters
-
+- [ ] dump and process item pictures

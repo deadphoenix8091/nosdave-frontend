@@ -19,9 +19,19 @@
     <el-table
       :data="items"
       style="width: 100%">
+      <el-table-column prop="internalId" label="Image">
+        <template slot-scope="scope">
+          <img :src="`https://itempicker.atlagaming.eu/api/items/icon/${scope.row.internalId}`"/>
+        </template>
+      </el-table-column>
       <el-table-column prop="name" label="Name">
         <template slot-scope="scope">
           <nuxt-link :to="`/items/${scope.row.slug}`">{{ scope.row.name }}</nuxt-link>
+        </template>
+      </el-table-column>
+      <el-table-column prop="raw_description" label="Description">
+        <template slot-scope="scope">
+          {{ scope.row.raw_description | description }}
         </template>
       </el-table-column>
       <template slot="empty">

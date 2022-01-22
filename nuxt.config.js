@@ -55,6 +55,7 @@ export default {
   plugins: [
     `~/plugins/dashboard-plugin.js`,
     `~/plugins/elementui.js`,
+    { src: '~/plugins/description_format.js' },
     { src: '~/plugins/capitalize_format.js' },
     { src: '~/plugins/penya_format.js' },
     { src: '~/plugins/thousands_format.js' },
